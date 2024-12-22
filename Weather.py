@@ -30,7 +30,6 @@ def display_weather(weather_data):
         print("Weather data not found. Please check the city name and try again.")
 
 def main():
-    api_key = "3746ad9b2aeb953b117a94ca8d578e56"
     while True:
         city = input("Enter the city name (or type 'exit' to quit): ")
         if city.lower() == 'exit':
